@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"os"
 	"strconv"
 )
@@ -16,5 +17,5 @@ func main() {
 
 	input, _ := strconv.Atoi(os.Args[1])
 
-	fib(input)
+	fmt.Println(fib(input))
 }
